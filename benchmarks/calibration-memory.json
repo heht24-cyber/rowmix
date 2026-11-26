@@ -1,0 +1,54 @@
+{
+  "platform": "linux",
+  "numpy": "2.3.5",
+  "calibration_batch": 8,
+  "activation_samples": 65536,
+  "max_patches_per_group": 8192,
+  "budget_bytes": 8726,
+  "results": [
+    {
+      "repeat": 1,
+      "calibration_rows": 259,
+      "mode": "full",
+      "seconds": 0.0688,
+      "peak_rss_kib": 65556,
+      "model_bytes": 8710,
+      "test": 360,
+      "correct": 356,
+      "matches_float": 358
+    },
+    {
+      "repeat": 1,
+      "calibration_rows": 259,
+      "mode": "stream",
+      "seconds": 0.1418,
+      "peak_rss_kib": 48456,
+      "model_bytes": 8710,
+      "test": 360,
+      "correct": 356,
+      "matches_float": 358
+    },
+    {
+      "repeat": 4,
+      "calibration_rows": 1036,
+      "mode": "full",
+      "seconds": 0.2565,
+      "peak_rss_kib": 139556,
+      "model_bytes": 8710,
+      "test": 360,
+      "correct": 356,
+      "matches_float": 358
+    },
+    {
+      "repeat": 4,
+      "calibration_rows": 1036,
+      "mode": "stream",
+      "seconds": 0.1704,
+      "peak_rss_kib": 52384,
+      "model_bytes": 8722,
+      "test": 360,
+      "correct": 356,
+      "matches_float": 358
+    }
+  ]
+}

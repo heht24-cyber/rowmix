@@ -1,0 +1,182 @@
+{
+  "digits": {
+    "confidence": 0.95,
+    "minimum_agreement": 0.95,
+    "unique_candidates": 5,
+    "per_candidate_alpha": 0.010000000000000009,
+    "selected_sha256": "97ecd70e2c055731b06d1c91ae69ab859d92456335947e88fdc3844e917b1753",
+    "candidates": [
+      {
+        "sha256": "c8df89e635fff9f518c77b3b0f4041225d31a60bdc98463cc68a62de1f7b012b",
+        "budget_bytes": 6438,
+        "model_bytes": 6438,
+        "arena_bytes": 2368,
+        "matches": 349,
+        "observations": 360,
+        "lower_agreement": 0.9411733235093975,
+        "failed": [
+          "agreement_evidence"
+        ],
+        "kernel": "avx2",
+        "samples": 360,
+        "passes": 5,
+        "median_us_per_sample": 90.2341,
+        "p95_pass_mean_us": 91.8053
+      },
+      {
+        "sha256": "97ecd70e2c055731b06d1c91ae69ab859d92456335947e88fdc3844e917b1753",
+        "budget_bytes": 7582,
+        "model_bytes": 7576,
+        "arena_bytes": 2368,
+        "matches": 359,
+        "observations": 360,
+        "lower_agreement": 0.9817038733072994,
+        "failed": [],
+        "kernel": "avx2",
+        "samples": 360,
+        "passes": 5,
+        "median_us_per_sample": 84.0224,
+        "p95_pass_mean_us": 100.5
+      },
+      {
+        "sha256": "6b112dc41f2dbdb46bbe1257dfbdd23722c57db36cd6f87b48011770ff7bda29",
+        "budget_bytes": 8726,
+        "model_bytes": 8710,
+        "arena_bytes": 2368,
+        "matches": 358,
+        "observations": 360,
+        "lower_agreement": 0.9768569241376843,
+        "failed": [],
+        "kernel": "avx2",
+        "samples": 360,
+        "passes": 5,
+        "median_us_per_sample": 87.3953,
+        "p95_pass_mean_us": 93.7718
+      },
+      {
+        "sha256": "0e3806a79219f3c7a4061d56b74be831a5d443735aa6b67cac44f82a17830e0c",
+        "budget_bytes": 9870,
+        "model_bytes": 9868,
+        "arena_bytes": 2368,
+        "matches": 359,
+        "observations": 360,
+        "lower_agreement": 0.9817038733072994,
+        "failed": [],
+        "kernel": "avx2",
+        "samples": 360,
+        "passes": 5,
+        "median_us_per_sample": 80.082,
+        "p95_pass_mean_us": 88.9594
+      },
+      {
+        "sha256": "98d5fa704f466e83835d304b30b00f3c5ef2c1ed37e85e62c4014979b07c4769",
+        "budget_bytes": 11014,
+        "model_bytes": 11014,
+        "arena_bytes": 2368,
+        "matches": 360,
+        "observations": 360,
+        "lower_agreement": 0.9872893322408616,
+        "failed": [],
+        "kernel": "avx2",
+        "samples": 360,
+        "passes": 5,
+        "median_us_per_sample": 74.662,
+        "p95_pass_mean_us": 75.9682
+      }
+    ]
+  },
+  "wine": {
+    "confidence": 0.95,
+    "minimum_agreement": 0.95,
+    "unique_candidates": 5,
+    "per_candidate_alpha": 0.010000000000000009,
+    "selected_sha256": null,
+    "candidates": [
+      {
+        "sha256": "d1fdc6e165d0fec4f85f0420cc99a0fae8b5c455086b01d51e5f453da64e5ab0",
+        "budget_bytes": 1847,
+        "model_bytes": 1847,
+        "arena_bytes": 61,
+        "matches": 36,
+        "observations": 36,
+        "lower_agreement": 0.879922543569107,
+        "failed": [
+          "agreement_evidence"
+        ],
+        "kernel": "avx2",
+        "samples": 36,
+        "passes": 5,
+        "median_us_per_sample": 0.74,
+        "p95_pass_mean_us": 0.743333
+      },
+      {
+        "sha256": "f6a88296e82a5f6f2cd6e2c97ad939f3ec29dabd6418896897906cf6b9d79dce",
+        "budget_bytes": 1965,
+        "model_bytes": 1963,
+        "arena_bytes": 61,
+        "matches": 36,
+        "observations": 36,
+        "lower_agreement": 0.879922543569107,
+        "failed": [
+          "agreement_evidence"
+        ],
+        "kernel": "avx2",
+        "samples": 36,
+        "passes": 5,
+        "median_us_per_sample": 0.730833,
+        "p95_pass_mean_us": 7.10478
+      },
+      {
+        "sha256": "d9ec871bb99a782152c6c7c1f8b37623728ad397115e527a30c9dbfb1f966bbf",
+        "budget_bytes": 2083,
+        "model_bytes": 2081,
+        "arena_bytes": 61,
+        "matches": 36,
+        "observations": 36,
+        "lower_agreement": 0.879922543569107,
+        "failed": [
+          "agreement_evidence"
+        ],
+        "kernel": "avx2",
+        "samples": 36,
+        "passes": 5,
+        "median_us_per_sample": 0.726083,
+        "p95_pass_mean_us": 1.20403
+      },
+      {
+        "sha256": "795b942a0c03b07bf5d99b3cc0dbcc7ed69ef293c7d0f74eb3939176f475dc4a",
+        "budget_bytes": 2201,
+        "model_bytes": 2197,
+        "arena_bytes": 61,
+        "matches": 36,
+        "observations": 36,
+        "lower_agreement": 0.879922543569107,
+        "failed": [
+          "agreement_evidence"
+        ],
+        "kernel": "avx2",
+        "samples": 36,
+        "passes": 5,
+        "median_us_per_sample": 0.738583,
+        "p95_pass_mean_us": 2.467
+      },
+      {
+        "sha256": "b53699acadfbd00451de48b12f7ce449aa3e9e9cc0d6497b5fc2905b3ccd282a",
+        "budget_bytes": 2319,
+        "model_bytes": 2319,
+        "arena_bytes": 61,
+        "matches": 36,
+        "observations": 36,
+        "lower_agreement": 0.879922543569107,
+        "failed": [
+          "agreement_evidence"
+        ],
+        "kernel": "avx2",
+        "samples": 36,
+        "passes": 5,
+        "median_us_per_sample": 0.731944,
+        "p95_pass_mean_us": 0.733333
+      }
+    ]
+  }
+}
